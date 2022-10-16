@@ -1,4 +1,4 @@
-name: Build
+name: Shahzaib ali
 
 on: [push, pull_request]
 
@@ -16,6 +16,6 @@ jobs:
       with:
         dotnet-version: 5.0.x
 
-    - name: Build
+    - name: Shahzaib Ali
       run: |
         dotnet build
